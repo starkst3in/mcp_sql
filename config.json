@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "required": [
+      "GEMINI_API_KEY",
+      "PLOTLY_USERNAME",
+      "PLOTLY_API_KEY"
+    ],
+    "properties": {
+      "DEBUG": {
+        "type": "boolean",
+        "default": false,
+        "description": "Enable debug mode for verbose logs."
+      },
+      "GEMINI_API_KEY": {
+        "type": "string",
+        "description": "Google Gemini API key for authentication with the Gemini service."
+      },
+      "PLOTLY_API_KEY": {
+        "type": "string",
+        "description": "Plotly API key for visualization APIs."
+      },
+      "PLOTLY_USERNAME": {
+        "type": "string",
+        "description": "Plotly username for visualization APIs."
+      }
+    }
+  }
